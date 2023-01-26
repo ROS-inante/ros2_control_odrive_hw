@@ -1,0 +1,16 @@
+<library path="ros2_control_odrive_hw">
+    <class name="ros2_control_odrive_hw/ODriveSystemHardware"
+            type="ros2_control_odrive_hw::ODriveSystemHardware"
+            base_class_type="hardware_interface::SystemInterface">
+        <description>
+            This is a simple HW-Interface for controlling ODrive-Boards in velocity mode.
+        </description>
+    </class>
+    <class name="ros2_control_odrive_hw/DummyODriveSystemHardware"
+            type="ros2_control_odrive_hw::DummyODriveSystemHardware"
+            base_class_type="hardware_interface::SystemInterface">
+        <description>
+            This is a simple dummy interface for controlling ODrive-Boards in velocity mode.
+        </description>
+    </class>
+</library>
